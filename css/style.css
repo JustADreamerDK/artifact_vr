@@ -15,11 +15,22 @@ article {
 }
 
 #forstebox {
-  background-color: blue;
+  background-image: url("../img/grass.png");
 }
 
+.textbox1 {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  position: center;
+  text-align: center;
+}
+
+
 #andenbox {
-  background-color: red;
+  background-image: url("../img/head.png");
 }
 
 #tredjebox {
