@@ -1,0 +1,39 @@
+body{
+  background-color: white;
+}
+
+nav{
+  background-color: green;
+  border-style: solid;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  margin-left: 0;
+}
+
+nav a {
+  text-align:right;
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+nav li {
+  position: relative;
+  left
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+ .welcome {
+   width: 80%;
+
+ }
