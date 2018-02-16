@@ -81,17 +81,15 @@ article {
   color: #f5f5eb;
 }
 
-.textbox1 .overskrift{
-    text-shadow: -1px -1px 0 #1e1414,
-                 1px -1px 0 #1e1414,
-                 -1px 1px 0 #1e1414,
-                 1px 1px 0 #1e1414;
-}
-
 .overskrift {
   position: center;
   text-align: center;
-  margin-top: 20px;
+  color: #f5f5eb;
+  text-shadow: -1px -1px 0 #1e1414,
+               1px -1px 0 #1e1414,
+               -1px 1px 0 #1e1414,
+               1px 1px 0 #1e1414;
+padding-top: 10px;
 }
 
 
@@ -104,6 +102,10 @@ article {
   flex-direction: column;
   align-items: center;
   margin-top: -660px;
+}
+
+#tredjebox .overskrift{
+    margin-top: 10px;
 }
 
 .whitebox{
