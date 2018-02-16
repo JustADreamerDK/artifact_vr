@@ -63,6 +63,24 @@ article {
   height: 660px;
 }
 
+ .whitebox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .whitebox ul{
+    background: rgba(245,245,235,.7);
+    height: 50%;
+    width: 100%;
+    padding: 50px;
+    list-style-type: disc;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #forstebox {
   background-image: url("../img/grass.png");
   display: flex;
@@ -95,6 +113,9 @@ padding-top: 10px;
 
 #andenbox {
   background-image: url("../img/head.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #tredjebox {
@@ -105,25 +126,9 @@ padding-top: 10px;
 }
 
 #tredjebox .overskrift{
-    margin-top: -80px;
+    margin-top: 10px;
 }
 
-.whitebox{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#tredjebox .whitebox ul{
-    background: rgba(245,245,235,.7);
-    height: 50%;
-    padding: 50px;
-    list-style-type: disc;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .image_slide{
     width: 100%;
 }
@@ -152,7 +157,10 @@ button:hover{
 }
 
 #fjerdebox {
-  background-color: orange;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon{
