@@ -12,17 +12,18 @@ header {
   width: 100%;
 }
 
-ul{
-  list-style-type: none;
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-li{
-  float: left;
+ul{
+  list-style-type: none;
+  display: flex;
 }
 
 li a {
-  display: block;
   text-align: center;
   text-decoration: none;
   padding: 15px;
@@ -34,11 +35,16 @@ article {
 
 #forstebox {
   background-image: url("../img/grass.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textbox1 {
-  position: relative;
-  width: 100%;
+  background-color: red;
+  width: 500px;
+  height :200px;
+  
 }
 
 h1 {
