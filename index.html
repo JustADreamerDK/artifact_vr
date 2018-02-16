@@ -27,12 +27,17 @@
       <div id="b1"></div>
         <article id="forstebox">
           <div class="textbox1">
+<<<<<<< HEAD
             <h1> ReaCh to relieve <br> Anxiety </h1>
+=======
+              <h2 id="b1" class="overskrift"> ReaCh to relieve <br> Anxiety </h2>
+>>>>>>> 9638edcd573ec238c4a1ce998304750eb7e36d1f
           </div>
         </article>
 
         <article id="andenbox">
           <div class="fakta">
+<<<<<<< HEAD
             <div class="anchor" id="b2"></div>
             <h1> Science behind </h1>
           </div>
@@ -43,14 +48,47 @@
         <div class="produkt">
         <div class="anchor" id="b3"></div>
           <h1> the produkt </h1>
+=======
+            <h2 id="b2" class="overskrift"> Science behind </h2>
+          </div>
+        </article>
+
+        <div class="slideshow">
+            <div class="image_slide">
+                <img class="slide billede" src="img/bg1.jpg" alt="billede">
+                <img class="slide billede" src="img/bg2.jpg" alt="billede">
+                <img class="slide billede" src="img/bg3.jpg" alt="billede">
+            </div>
+>>>>>>> 9638edcd573ec238c4a1ce998304750eb7e36d1f
         </div>
-      </article>
+
+        <article id="tredjebox">
+            <h2 id="b3" class="overskrift">ReaCh</h2>
+            <div class="whitebox">
+                <ul>
+                    <li>ReaCh is a safe way to challenge the anxiety patient in a safe environment.
+                    </li>
+                    <li>ReaCh makes it easy to navigate in the menu, even if you are not yet a computer expert. </li>
+                    <li>When using ReaCh you will get the full 360° HD experience, in a realistic and believable virtual world. </li>
+                    <li>There are many different courses, to secure that the patient won’t experience anything too intense. </li>
+                </ul>
+          </div>
+        </article>
+
+        <div class="button">
+             <button onclick="plusDivs(-1)">&#10094;</button>
+             <button onclick="plusDivs(1)">&#10095;</button>
+         </div>
 
 
       <article id="fjerdebox">
         <div class="contact">
+<<<<<<< HEAD
           <div class="anchor" id="b4"></div>
           <h1> contact us </h1>
+=======
+          <h2 id="b4"> contact us </h2>
+>>>>>>> 9638edcd573ec238c4a1ce998304750eb7e36d1f
         </div>
       </article>
 
@@ -61,5 +99,24 @@
     <h2> footer </h2>
   </footer>
 
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
   </body>
 </html>
