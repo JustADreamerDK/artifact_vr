@@ -6,8 +6,26 @@
  }
 
 header {
-  background-color: yellow;
   height: 145px;
+  background-color: yellow;
+  position: fixed;
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
 }
 
 article {
