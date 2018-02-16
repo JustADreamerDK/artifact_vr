@@ -6,7 +6,7 @@
  }
 
 header {
-  height: 145px;
+  height: 80px;
   background-color: yellow;
   position: fixed;
   width: 100%;
@@ -29,6 +29,13 @@ li a {
   padding: 15px;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
 article {
   height: 660px;
 }
@@ -38,13 +45,14 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .textbox1 {
   background-color: red;
   width: 500px;
   height :200px;
-  
+
 }
 
 h1 {
