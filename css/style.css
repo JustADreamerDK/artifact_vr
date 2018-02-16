@@ -27,9 +27,10 @@ p{
 
 header {
   height: 80px;
-  background-color: #1e1414;
+  background-color: #f5f5eb;
   position: fixed;
   width: 100%;
+
 }
 
 nav{
@@ -47,8 +48,8 @@ li a {
   text-align: center;
   text-decoration: none;
   padding: 30px 20px;
-  color:#f5f5eb;
-  opacity:0.5;
+  color: #1e1414;
+  opacity: 0.5;
 }
 
 .anchor {
@@ -159,7 +160,7 @@ button:hover{
 .icon{
   padding: 0px 15px;
   font-size: 30px;
-  color: #f5f5eb;
+  color: #1e1414;
   opacity: 0.5;
 }
 
@@ -167,7 +168,7 @@ button:hover{
 .ftext{
   float:right;
   text-decoration: none;
-  color:#f5f5eb;
+  color: #1e1414;
   opacity: 0.5;
 }
 
@@ -182,7 +183,8 @@ button:hover{
 a:hover{
   opacity:1.0;
 }
+
 footer {
-  background-color: #1e1414;
+  background-color: #f5f5eb;
   padding: 35px 25px;
 }
