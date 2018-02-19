@@ -190,6 +190,37 @@ a:hover{
   opacity:1.0;
 }
 
+input [type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f5f5eb;
+  color: black;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f5f5eb;
+}
+
+.contact{
+  border-radius: 5px;
+  background-color: #f5f5eb;
+  opacity: 1.0;
+  padding: 20px;
+}
+
 footer {
   background-color: #f5f5eb;
   padding: 35px 25px;
