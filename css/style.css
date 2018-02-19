@@ -203,7 +203,7 @@ input [type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #f5f5eb;
+  background-color: #d0d0cc;
   color: black;
   padding: 12px 14px;
   border: none;
@@ -212,10 +212,15 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #f5f5eb;
+  background-color: #d0d0cc;
+  opacity: 0.5;
 }
 
-.contact{
+label {
+  text-align: center;
+}
+
+.contact {
   border-radius: 5px;
   background-color: #f5f5eb;
   opacity: 1.0;
