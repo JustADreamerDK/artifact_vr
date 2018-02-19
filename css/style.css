@@ -323,7 +323,7 @@ footer {
       }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 880px) {
     #tredjebox .whitebox{
         margin-bottom: 300px;
     }
@@ -336,7 +336,7 @@ footer {
 
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 720px) {
     #tredjebox .whitebox{
         margin-bottom: 330px;
     }
@@ -352,9 +352,7 @@ footer {
     .flytmig .whitebox ul{
         padding-bottom: 100px;
     }
-    #fjerdebox{
-        margin-top: 50px;
-    }
+
     .flytmig .whitebox{
         margin-top: 10px;
     }
@@ -374,12 +372,12 @@ footer {
           display: flex;
           justify-content: center;
       }
+      .billede{
+          height: 400px;
+      }
 }
 
 @media screen and (max-width: 620px) {
-    #fjerdebox{
-        margin-top: 100px;
-    }
     button{
         margin-top: -200px;
     }
@@ -389,9 +387,6 @@ footer {
 }
 
 @media screen and (max-width: 540px) {
-    #fjerdebox{
-        margin-top: 150px;
-    }
     input[type=email], input[type=text] {
       width: 200px;
       }
