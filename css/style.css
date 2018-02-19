@@ -73,7 +73,7 @@ article {
 }
  .whitebox ul{
     background: rgba(245,245,235,.7);
-    height: 50%;
+    min-height: 50%;
     width: 100%;
     padding: 50px;
     list-style-type: disc;
@@ -82,7 +82,8 @@ article {
 }
 
 #forstebox {
-  background-image: url("../img/grass.png");
+  background-image: url("../img/velkommen.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +114,8 @@ font-family: helvetica;
 
 
 #andenbox {
-  background-image: url("../img/head.png");
+  background-image: url("../img/science.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,11 +125,18 @@ font-family: helvetica;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -660px;
+  background-color: #f5f5eb;
+  height: 100%;
 }
 
-#tredjebox .overskrift{
-    margin-top: 10px;
+.flytmig{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .image_slide{
@@ -169,7 +178,6 @@ button:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   height: 100%;
 }
 
@@ -282,4 +290,112 @@ footer {
 
 .flexbetween {
  justify-content: space-between;
+}
+
+@media screen and (max-width: 1120px) {
+    #tredjebox .whitebox{
+        height: 500px;
+        margin-bottom: 100px;
+
+    }
+    input[type=email], input[type=text] {
+      width: 350px;    }
+    button{
+        margin-top: -250px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    input[type=email], input[type=text] {
+      width: 300px;
+      }
+}
+
+@media screen and (max-width: 990px) {
+    #tredjebox .whitebox{
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    input[type=email], input[type=text] {
+      width: 250px;
+      }
+}
+
+@media screen and (max-width: 830px) {
+    #tredjebox .whitebox{
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    input[type=email], input[type=text] {
+      width: 200px;
+      }
+
+}
+
+@media screen and (max-width: 710px) {
+    #tredjebox .whitebox{
+        margin-bottom: 330px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .box img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .flytmig .whitebox ul{
+        padding-bottom: 100px;
+    }
+    #fjerdebox{
+        margin-top: 50px;
+    }
+    .flytmig .whitebox{
+        margin-top: 10px;
+    }
+    button{
+        margin-top: -200px;
+    }
+    .box{
+        width: 70%;
+    }
+    input[type=email], input[type=text] {
+      width: 300px;
+      }
+      .icon{
+          display: none;
+      }
+      footer{
+          display: flex;
+          justify-content: center;
+      }
+}
+
+@media screen and (max-width: 620px) {
+    #fjerdebox{
+        margin-top: 100px;
+    }
+    button{
+        margin-top: -200px;
+    }
+    .box{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #fjerdebox{
+        margin-top: 150px;
+    }
+    input[type=email], input[type=text] {
+      width: 200px;
+      }
+      button{
+          margin-top: -150px;
+      }
 }
