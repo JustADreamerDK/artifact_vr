@@ -79,28 +79,35 @@
              <button onclick="plusDivs(1)">&#10095;</button>
          </div>
 
-  <h2 class="overskrift"> Contact us </h2>
+
       <article id="fjerdebox">
         <div class="anchor" id="b4"></div>
+        <h2 class="overskrift"> Contact us </h2>
+        <div class="box">
         <div class="contact">
           <form action="action_page.html">
 
-            <label for="fnavn">First name</label>
-            <input type="text" name="firstname" placeholder="your name..">
+            <div class="flex-collum">
+              <div class="flex flexbetween center">
+            <label for="name"><h4>Name:</h4></label>
+            <input type="text" name="name">
+          </div>
 
-            <label for="lnavn">Last name</label>
-            <input type="text" name="lastname" placeholder="Your last name..">
-            <br>
+              <div class="flex flexbetween center margin-top5px">
+            <label for="mail"><h4>Mail:</h4></label>
+            <input type="email" name="mail">
+            </div>
+          </div>
 
-            <label for="subject">Subject</label>
-            <textarea name="subject"  style="height:400px">
-            </textarea>
+            <textarea name="subject" class="margin-top5px">Subject</textarea>
 
-
-            <input type="submit" value="Submit">
+            <div class="symbitkanp">
+              <input type="submit" value="Send">
+            </div>
           </form>
         </div>
           <img src="img/felles.JPG" id="felles">
+        </div>
       </article>
     </section>
 

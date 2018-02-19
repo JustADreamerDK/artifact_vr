@@ -158,14 +158,19 @@ button:hover{
 }
 
 #fjerdebox {
-    background-color: orange;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 604px;
 }
 
-.overskrift {
-  background: orange;
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
 }
 
 .icon{
@@ -195,11 +200,10 @@ a:hover{
   opacity:1.0;
 }
 
-input [type=text], select, textarea {
+input [type=text], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 5px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -207,11 +211,7 @@ input [type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #d0d0cc;
-  color: black;
-  padding: 12px 14px;
-  border: none;
-  border-radius: 5px;
+  padding: 10px 30px;
   cursor: pointer;
 }
 
@@ -220,24 +220,66 @@ input[type=submit]:hover {
   opacity: 0.5;
 }
 
+input[type=email], input[type=text] {
+  width: 450px;
+  height: 30px;
+  font-size: 20px;
+}
+
+input[type=text], input[type=email], textarea, input[type=submit] {
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, 0.0);
+}
+
 label {
   text-align: center;
 }
 
+.flex-collum {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-top5px {
+  margin-top: 5px;
+}
+
+.center {
+  align-items: center;
+}
+
+
 .contact {
-  border-radius: 5px;
-  background-color: #f5f5eb;
-  opacity: 1.0;
+  background-color: rgba(245,245,235,.7);
+
   padding: 20px;
-  margin: 200px;
+  width: 40%;
+}
+
+.symbitkanp {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #felles{
-  height: 40%;
-  width: 30%;
+  width: 40%;
 }
+
+textarea {
+  height: 200px;
+  font-size: 15px;
+}
+
 
 footer {
   background-color: #f5f5eb;
   padding: 35px 25px;
+}
+
+.flexbetween {
+ justify-content: space-between;
 }
