@@ -10,7 +10,7 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px
+    font-size: 40px;
 }
 h3{
     font-size: 30px
@@ -108,6 +108,7 @@ article {
                -1px 1px 0 #1e1414,
                1px 1px 0 #1e1414;
 padding-top: 10px;
+font-family: helvetica;
 }
 
 
