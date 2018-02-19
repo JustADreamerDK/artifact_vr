@@ -160,8 +160,12 @@ button:hover{
 #fjerdebox {
     background-color: orange;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    height: 604px;
+}
+
+.overskrift {
+  background: orange;
 }
 
 .icon{
@@ -225,6 +229,12 @@ label {
   background-color: #f5f5eb;
   opacity: 1.0;
   padding: 20px;
+  margin: 200px;
+}
+
+#felles{
+  height: 40%;
+  width: 30%;
 }
 
 footer {
